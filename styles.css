@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px 0 0 0;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: 'Baloo Tammudu 2', sans-serif;
+  color: #04009A;
+}
+
+h3 {
+  font-family: 'Baloo Tammudu 2', sans-serif;
+  color: #04009A;
+}
+
+p {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+  width: 5%;
+  height: 0;
+  border-color: #77ACF1;
+  margin: 8% auto 8% auto;
+}
+
+.top-container {
+  background-color: #77ACF1;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+  background-color: #77ACF1;
+  margin-top: 10%;
+  padding: 5% 0 5% 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  top: 150px;
+}
+
+.mountain {
+  margin: 0 auto 0 auto;
+  display: inline-block;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: black;
+}
+.profile-img{
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 60%;
+}
+.hello{
+  padding-top: 10px;
+}
+.profile-div{
+  width: 30%;
+  margin: 80px auto 80px auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-image{
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-food{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.footer-link{
+color: #04009A;
+font-family: 'Baloo Tammudu 2', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+.footer-link:hover{
+  color: #3EDBF0;
+  text-decoration: none;
+}
+.footer-text{
+  color: white;
+  line-height: 3;
+  font-size: .9rem;
+  font-family: 'Baloo Tammudu 2', sans-serif;
+  padding: 20px 0px;
+}
+.btn{
+  background: #3EDBF0;
+   background-image: -webkit-linear-gradient(top, #77ACF1, #04009A);
+   background-image: -moz-linear-gradient(top, #77ACF1, #04009A);
+   background-image: -ms-linear-gradient(top, #77ACF1, #04009A);
+   background-image: -ms-linear-gradient(top, #77ACF1, #04009A);
+   background-image: -o-linear-gradient(top, #77ACF1, #04009A);
+   background-image: -webkit-gradient(to bottom, #77ACF1, #04009A);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: white;
+   font-family: 'Kaushan Script', cursive;
+   font-size: 200%;
+   font-weight: 100;
+   padding: 1.25% 3.25% 1.25% 3.25%;
+   border: solid #04009A 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 5%;
+   height: 5%;
+
+}
+.btn:hover{
+  border: solid #77ACF1 1px;
+   background: #77ACF1;
+   background-image: -webkit-linear-gradient(top, #04009A, #77ACF1);
+   background-image: -moz-linear-gradient(top, #04009A, #77ACF1);
+   background-image: -ms-linear-gradient(top, #04009A, #77ACF1);
+   background-image: -o-linear-gradient(top, #04009A, #77ACF1);
+   background-image: -webkit-gradient(to bottom, #04009A, #77ACF1);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
